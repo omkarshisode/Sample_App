@@ -26,6 +26,29 @@ android {
             )
         }
     }
+
+    // Defined product favour
+    flavorDimensions.add("version")
+    productFlavors {
+
+        create("sampleApp1") {
+            applicationId = "com.example.sampleapp1"
+            versionNameSuffix = "-v1"
+        }
+        create("sampleApp2") {
+            applicationId = "com.example.sampleapp2"
+            versionNameSuffix = "-v2"
+        }
+        create("sampleApp3") {
+            applicationId = "com.example.sampleapp3"
+            versionNameSuffix = "-v3"
+        }
+        create("sampleApp4") {
+            applicationId = "com.example.sampleapp4"
+            versionNameSuffix = "-v4"
+        }
+
+    }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
