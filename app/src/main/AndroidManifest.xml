@@ -2,8 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!--    <queries>-->
+    <!--        <package android:name="ma.dista" />-->
+    <!--    </queries>-->
+
     <queries>
-        <package android:name="ma.dista" />
+        <package android:name="dista.suryoday" />
     </queries>
 
     <application

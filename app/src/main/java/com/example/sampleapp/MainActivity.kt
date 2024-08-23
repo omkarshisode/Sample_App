@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
 
             Intent().also {
                 it.component = ComponentName(
-                    "ma.dista",
+                    "dista.suryoday",
                     "ma.dista.activities.startServiceActivity.StartServiceActivity"
                 )
 
@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
                 // These flags ensure that the activity starts fresh, with no back stack
                 it.flags =
                     Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NO_ANIMATION or Intent.FLAG_ACTIVITY_CLEAR_TOP
-                it.putExtra("clientId", orgIdByteArray)
+                it.putExtra("clientId", orgId)
                 it.putExtra("userId", userIdByteArray)
                 it.putExtra("SHA1","995F36DAACAB23AE3F7824864A97E6AE5908A302")
 
